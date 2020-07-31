@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: account-managment-service
+
+server:
+  port: 8091
+  
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
